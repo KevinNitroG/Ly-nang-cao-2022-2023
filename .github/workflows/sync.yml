@@ -18,7 +18,6 @@ jobs:
       uses: actions/checkout@main
 
     - name: Install Rclone
-      if: steps.cache-rclone.outputs.cache-hit != 'true'
       run: |
         curl https://downloads.rclone.org/rclone-current-linux-amd64.zip -o rclone.zip
         unzip rclone.zip
