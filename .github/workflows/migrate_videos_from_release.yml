@@ -1,0 +1,27 @@
+name: Migrate videos from release
+
+on:
+  workflow_dispatch:
+
+permissions: write-all
+
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  Noice:
+    runs-on: ubuntu-latest
+#    timeout-minutes: 5
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@main
+
+    - name: Download and Upload to Release
+      run: |
+        
+        for i in {1..28}
+        do
+          wget https://github.com/KevinNitroG/Ly/releases/download/Videos/Buoi.$i.mp4 > /dev/null 2>&1
+          gh release upload videos Buoi.*
+          rm -f Buoi.*
+        done

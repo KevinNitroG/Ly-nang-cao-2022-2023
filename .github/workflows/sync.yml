@@ -1,0 +1,72 @@
+name: Sync tài liệu
+
+on:
+  workflow_dispatch:
+
+permissions: write-all
+
+env:
+  RCLONE_CONFIG_FILE: ${{ secrets.RCLONE_CONFIG_FILE }}
+  REMOTE: ${{ secrets.REMOTE }}
+
+jobs:
+  Noice:
+    runs-on: ubuntu-latest
+#    timeout-minutes: 5
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@main
+
+    - name: Cache Rclone installation
+      uses: actions/cache@main
+      id: cache-rclone
+      if: ${{ always() }}
+      with:
+          path: |
+            **/rclone
+          key: cache-rclone
+
+    - name: Install Rclone
+      if: steps.cache-rclone.outputs.cache-hit != 'true'
+      run: |
+        curl https://downloads.rclone.org/rclone-current-linux-amd64.zip -o rclone.zip
+        unzip rclone.zip
+        mv rclone-*-linux-amd64/* ./
+        rm -r rclone-*-linux-amd64 rclone.1 rclone.zip README.html README.txt git-log.txt
+
+    - name: Download rlcone.conf
+      if: ${{ env.RCLONE_CONFIG_FILE }}
+      run: |
+        rm -f rclone.conf
+        wget -O rclone.conf ${{ env.RCLONE_CONFIG_FILE }} > /dev/null 2>&1
+
+    - name: Upload .github Artifact
+      uses: actions/upload-artifact@main
+      with:
+        name: Github
+        path: |
+          .github
+          .git
+
+    - name: Run rclone command
+      continue-on-error: true
+      run: ./rclone sync --transfers 32 --auto-confirm --ignore-errors "${{ env.REMOTE }}:FILE HỌC SINH" "./" --ignore-existing --exclude "*.mp4"
+
+    - name: Delete rclone files
+      run: rm -rf rclone*
+
+    - name: Download .github Artifact
+      uses: actions/download-artifact@main
+      with:
+        name: Github
+        path: |
+          .github
+          .git
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Upload"
+        git push

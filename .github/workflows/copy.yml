@@ -1,0 +1,47 @@
+name: Copy tài liệu
+
+on:
+  workflow_dispatch:
+
+permissions: write-all
+
+env:
+  RCLONE_CONFIG_FILE: ${{ secrets.RCLONE_CONFIG_FILE }}
+  REMOTE: ${{ secrets.REMOTE }}
+
+jobs:
+  Noice:
+    runs-on: ubuntu-latest
+#    timeout-minutes: 5
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@main
+
+    - name: Install Rclone
+      run: |
+        curl https://downloads.rclone.org/rclone-current-linux-amd64.zip -o rclone.zip
+        unzip rclone.zip
+        mv rclone-*-linux-amd64/* ./
+        rm -r rclone-*-linux-amd64 rclone.1 rclone.zip README.html README.txt git-log.txt
+
+    - name: Download rlcone.conf
+      if: ${{ env.RCLONE_CONFIG_FILE }}
+      run: |
+        rm -f rclone.conf
+        wget -O rclone.conf ${{ env.RCLONE_CONFIG_FILE }} > /dev/null 2>&1
+
+    - name: Run rclone command
+      continue-on-error: true
+      run: ./rclone copy --transfers 32 --auto-confirm --ignore-errors "${{ env.REMOTE }}:FILE HỌC SINH" "./" --ignore-existing --exclude "*.mp4"
+
+    - name: Delete rclone files
+      run: rm -rf rclone*
+
+    - name: Commit and push changes
+      continue-on-error: true
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Upload"
+        git push
