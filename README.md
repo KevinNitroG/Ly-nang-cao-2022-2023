@@ -8,6 +8,8 @@
 
 ## NÂNG CAO
 
+- [Playlist](https://www.youtube.com/playlist?list=PLBeCWDHju6yDfgga0spxqetvSUyAqajSE) trên Youtube
+
 <Details>
 <summary>THƯ VIỆN BÀI HỌC</summary>
 
