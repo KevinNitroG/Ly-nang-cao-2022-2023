@@ -32,7 +32,7 @@ jobs:
 
     - name: Run rclone command
       continue-on-error: true
-      run: ./rclone copy --transfers 32 --auto-confirm --ignore-errors "${{ env.REMOTE }}:FILE HỌC SINH" "./Lý nâng cao thầy Sang" --ignore-existing --exclude "*.mp4"
+      run: ./rclone copy --transfers 32 --auto-confirm --ignore-errors "${{ env.REMOTE }}:FILE HỌC SINH" "./Lý nâng cao" --ignore-existing --exclude "*.mp4"
 
     - name: Delete rclone files
       run: rm -rf rclone*

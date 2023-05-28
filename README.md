@@ -1,6 +1,8 @@
 ## THÔNG TIN
 
 - Khóa học nâng cao không thuộc sở hữu bởi tôi
+- Lý cơ bản: `46MB`
+- Lý nâng cao: `282MB`
 
 ---
 
