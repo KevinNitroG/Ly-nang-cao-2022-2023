@@ -2,6 +2,8 @@ name: Copy tài liệu
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 20 * * *"
 
 permissions: write-all
 
