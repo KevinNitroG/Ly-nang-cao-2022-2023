@@ -3,7 +3,7 @@ name: Copy tài liệu
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 20 * * *"
+    - cron: "0 20 * * 3"
 
 permissions: write-all
 
