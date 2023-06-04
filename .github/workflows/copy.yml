@@ -39,6 +39,9 @@ jobs:
     - name: Delete rclone files
       run: rm -rf rclone*
 
+    - name: Calculate folders' sizes
+      run: Scripts/size\ folders.sh
+
     - name: Commit and push changes
       continue-on-error: true
       run: |
