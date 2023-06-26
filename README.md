@@ -2,7 +2,7 @@
 
 - Khóa học nâng cao không thuộc sở hữu bởi tôi
 - Lý cơ bản: `48M`
-- Lý nâng cao: `322M`
+- Lý nâng cao: `334M`
 
 ---
 
