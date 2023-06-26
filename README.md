@@ -1,8 +1,8 @@
 ## THÔNG TIN
 
-- Khóa học nâng cao không thuộc sở hữu bởi tôi
-- Lý cơ bản: `48M`
-- Lý nâng cao: `334M`
+- Khóa học nâng cao không thuộc sở hữu bởi tui
+- [Lý cơ bản][Basic]: `48M`
+- [Lý nâng cao][Advanced]: `334M`
 
 ---
 
@@ -44,3 +44,7 @@
 | 5/21/2023                                                                                                   | 27   | GIẢI ĐỀ | Đề 07                                                                                        | [Đề 07](https://drive.google.com/file/d/1Kanp-_AM25NQfoZokm0vkDQ1OV5abvkU/view?usp=share_link)                                                                                                           |                                                                                                              |                                                                                                 | [VIDEO Buổi 27](https://drive.google.com/file/d/1PQDUQFTfgex3QfBIlIKtlfQmmKOPQxgF/view?usp=share_link)      | [File note Buổi 27](https://drive.google.com/file/d/1zDQPiCWLz_E948n9fbMB-Po9u7G37Ts4/view?usp=share_link) |
 | 5/28/2023                                                                                                   | 28   | GIẢI ĐỀ | Đề 08<br>Đề 09                                                                               | [Đề 08](https://drive.google.com/file/d/1CI_LrxSqLGaf95NJ1qE70e9ntO3xP6jr/view?usp=share_link)<br>[Đề 09](https://drive.google.com/file/d/1GyRNFWbka7a-Qmx7UgYdZtYFU42jAeeu/view?usp=share_link)         |                                                                                                              |                                                                                                 |                                                                                                             |
 </Details>
+
+<!-- Foot hyperlink -->
+[Basic]: Lý%20cơ%20bản
+[Advanced]: Lý%20nâng%20cao
