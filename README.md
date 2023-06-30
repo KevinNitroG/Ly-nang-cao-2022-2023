@@ -1,9 +1,8 @@
-# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)
-
+# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)  ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/Physics-grade-12-2022-2023?style=for-the-badge)
 
 ## THÔNG TIN
 
-- Lý cơ bản lý trên trường Nguyễn Hữu Huân dạy, và chỗ học thêm tui
+- Lý cơ bản lý trên **trường Nguyễn Hữu Huân** dạy, và chỗ học thêm tui
 - Khóa học nâng cao không thuộc sở hữu bởi tui 🥴
 
 ## SIZE:
