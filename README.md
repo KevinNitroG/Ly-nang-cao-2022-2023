@@ -1,18 +1,18 @@
-# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)  ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/Physics-grade-12-2022-2023?style=for-the-badge)
+# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)  ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/Physics-grade-12-2022-2023?style=for-the-badge)    [![GitHub last commit to main](https://img.shields.io/github/last-commit/KevinNitroG/Physics-grade-12-2022-2023/main?style=for-the-badge&color=%23e6e872)](https://github.com/KevinNitroG/Physics-grade-12-2022-2023/commits/main)
 
 ## THÔNG TIN
 
 - Lý cơ bản lý trên **trường Nguyễn Hữu Huân** dạy, và chỗ học thêm tui
 - Khóa học nâng cao không thuộc sở hữu bởi tui 🥴
 
-## SIZE:
+## FOLDER SIZES:
 
 - [Lý cơ bản][Basic]: `48M`
 - [Lý nâng cao][Advanced]: `334M`
 
 ## DOWNLOAD ZIP FILES:
 
-[![Lý cơ bản](https://img.shields.io/badge/L%C3%BD_c%C6%A1_b%E1%BA%A3n-%233681bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.co.ban.zip)  [![Lý nâng cao](https://img.shields.io/badge/L%C3%BD_n%C3%A2ng_cao-%236a36bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.nang.cao.zip)
+[![Lý cơ bản](https://img.shields.io/badge/l%C3%BD_c%C6%A1_b%E1%BA%A3n-37.9MB-3681bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.co.ban.zip)  [![Lý nâng cao](https://img.shields.io/badge/l%C3%BD_n%C3%A2ng_cao-167MB-6a36bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.nang.cao.zip)
 
 ## NÂNG CAO:
 
