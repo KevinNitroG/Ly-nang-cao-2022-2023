@@ -9,5 +9,5 @@ for folder in "${folders[@]}"; do
     folder_size=$(du -sh "$folder" | awk '{print $1}')
 
     # Update the Markdown file with the new folder size
-    sed -i "0,/$folder:/s|$folder:.*|$folder: \`$folder_size\`|" README.md
+    sed -i "0,/$folder:/s|$folder:.*|$folder: \`$folder_size"B"\`|" README.md
 done
