@@ -1,4 +1,4 @@
-# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)  ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/Physics-grade-12-2022-2023?style=for-the-badge)    [![GitHub last commit to main](https://img.shields.io/github/last-commit/KevinNitroG/Physics-grade-12-2022-2023/main?style=for-the-badge&color=%23e6e872)](https://github.com/KevinNitroG/Physics-grade-12-2022-2023/commits/main)
+# [![Github page of REAMDE.md](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)  ![GitHub repo's size](https://img.shields.io/github/repo-size/KevinNitroG/Physics-grade-12-2022-2023?style=for-the-badge)    [![GitHub last commit to main](https://img.shields.io/github/last-commit/KevinNitroG/Physics-grade-12-2022-2023/main?style=for-the-badge&color=%23e6e872)](https://github.com/KevinNitroG/Physics-grade-12-2022-2023/commits/main)
 
 ## THÔNG TIN
 
@@ -16,7 +16,7 @@
 
 ## NÂNG CAO:
 
-[![Static Badge](https://img.shields.io/badge/playlist_youtube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLBeCWDHju6yDfgga0spxqetvSUyAqajSE)
+[![Youtube playlist link](https://img.shields.io/badge/playlist_youtube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLBeCWDHju6yDfgga0spxqetvSUyAqajSE)
 
 ### BẢNG THÔNG TIN BUỔI HỌC NÂNG CAO
 
