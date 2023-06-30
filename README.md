@@ -1,17 +1,21 @@
+# [![Static Badge](https://img.shields.io/badge/website-%E1%BA%A4n_%C4%91%E1%BB%83_xem_r%C3%B5_h%C6%A1n-%2346bd89?style=for-the-badge&logo=githubpages)](https://kevinnitrog.github.io/Physics-grade-12-2022-2023/)
+
+
 ## THÔNG TIN
 
 - Lý cơ bản lý trên trường Nguyễn Hữu Huân dạy, và chỗ học thêm tui
 - Khóa học nâng cao không thuộc sở hữu bởi tui 🥴
 
-SIZE:
+## SIZE:
+
 - [Lý cơ bản][Basic]: `48M`
 - [Lý nâng cao][Advanced]: `334M`
 
-## DOWNLOAD ZIP FILES
+## DOWNLOAD ZIP FILES:
 
-[![Static Badge](https://img.shields.io/badge/L%C3%BD_c%C6%A1_b%E1%BA%A3n-L%C3%BD_c%C6%A1_b%E1%BA%A3n?style=for-the-badge&color=red)](../../releases/download/Zip_files/Ly.co.ban.zip)  [![Static Badge](https://img.shields.io/badge/L%C3%BD_n%C3%A2ng_cao-L%C3%BD_n%C3%A2ng_cao?style=for-the-badge)](../../releases/download/Zip_files/Ly.nang.cao.zip)
+[![Lý cơ bản](https://img.shields.io/badge/L%C3%BD_c%C6%A1_b%E1%BA%A3n-%233681bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.co.ban.zip)  [![Lý nâng cao](https://img.shields.io/badge/L%C3%BD_n%C3%A2ng_cao-%236a36bf?style=for-the-badge)](../../releases/download/Zip_files/Ly.nang.cao.zip)
 
-## NÂNG CAO
+## NÂNG CAO:
 
 [![Static Badge](https://img.shields.io/badge/playlist_youtube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLBeCWDHju6yDfgga0spxqetvSUyAqajSE)
 
